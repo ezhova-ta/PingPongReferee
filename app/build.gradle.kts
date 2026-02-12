@@ -55,4 +55,6 @@ dependencies {
     implementation(libs.dagger.android.support)
     kapt(libs.dagger.compiler)
     kapt(libs.dagger.android.processor)
+
+    implementation(libs.view.binding.property.delegate)
 }
